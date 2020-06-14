@@ -57,6 +57,6 @@
  
 .icon-search:before { content: '\e800'; font-size: 30px; color: white;} /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
-.icon-facebook:before { content: '\f09a'; font-size: 20px; } /* '' */
+.icon-facebook:before { content: '\f09a'; font-size: 20px; color: white; } /* '' */
 .icon-youtube:before { content: '\f167'; font-size: 20px;} /* '' */
-.icon-instagram:before { content: '\f16d'; font-size: 20px;} /* '' */
+.icon-instagram:before { content: '\f16d'; font-size: 20px; color: white;} /* '' */

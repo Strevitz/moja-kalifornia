@@ -1,19 +1,8 @@
 body{
-    background-image: linear-gradient(  #31302e, #e2be75, #da4a11, #e2be75, #31302e);
+    background-image: linear-gradient(  #443d30, #e2be75, #da4a11, #e2be75, #443d30);
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
-
-  .parallax {
-    text-align: center;
-    background-image: url("img/la-street.jpg");
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
 .branda{
     font-family: 'Mr Dafoe', cursive;
@@ -42,11 +31,6 @@ body{
 
 
   /* ----------navbar----------- */
-/*
-  #secondnav{
-    margin: 0px 20px;
-  }
-*/
 
 .bg-brown{
     background-color: #31302e;
@@ -64,6 +48,9 @@ body{
     background-color: #dadada!important;
 }
 
+#latime:hover{
+    color: #fdf6f1!important;
+}
 
 .nav-link{
     font-family: 'Oswald', sans-serif;
@@ -76,6 +63,10 @@ body{
     color: #fc8b40!important;
 }
 
+.dropdown-item:hover {
+  background-image: linear-gradient(to right, #f3711a, rgb(247, 232, 148));
+}
+
 .btn-success{
     color: #301808;
     background-color: transparent;
@@ -86,12 +77,8 @@ body{
     background-color: #fc8b40;
 }
 
-.icon-facebook:hover{
-    color: #fc8b40;
-}
-
-.icon-instagram:hover{
-    color: #fc8b40;
+.navbar-nav li:hover>.dropdown-menu{
+  display: block;
 }
 
   /* ----------sections----------- */
@@ -102,14 +89,14 @@ body{
     padding: 0;
 }
 
-  
+
 @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
  }
 }
-  
+
 @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
@@ -119,7 +106,7 @@ body{
 @font-face{
     font-family: 'Western\ Wonderment';
     src: url("font/Western\ Wonderment.otf");
-    src: 
+    src:
 		local('Western\ Bang\ Bang'),
 		local('Western\ Bang\ Bang'),
 		url('font/Western\ Wonderment.otf');
